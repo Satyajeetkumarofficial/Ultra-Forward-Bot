@@ -2,7 +2,7 @@ echo "Cloning Repo...."
 if [ -z $BRANCH ]
 then
   echo "Cloning main branch...."
-  git clone https://github.com/Satyajeetkumarofficial/Ultra-Forward-Bot JishuDeveloper/Ultra-Forward-Bot
+  git clone https://github.com/Satyajeetkumarofficial/Ultra-Forward-Bot Satyajeetkumarofficial/Ultra-Forward-Bot
 else
   echo "Cloning $BRANCH branch...."
   git clone https://github.com/Satyajeetkumarofficial/Ultra-Forward-Bot -b $BRANCH /Ultra-Forward-Bot
